@@ -1,0 +1,101 @@
+** start of undefined **
+
+<body>
+  <link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey Form</h1>
+<p id="description"> Thank you for providing information</p>
+<form id="survey-form">
+  <div> 
+  <label for="name"id ="name-label"> Name  </label> 
+
+  <input id="name" type="text" placeholder="Enter your full name" required> 
+  <div>
+  <label id="email-label"for="email"> Email</label>
+   <input id="email" type="email" placeholder="Enter Your Email" required>
+    
+    </div>
+    <div>
+    <label id="number-label"for="number"> Age </label>
+    <input id="number" type="number" Min="13" Max="61"placeholder="Age" required>
+     
+      </div>
+      <div>
+         <label id= "select-label"> 
+           What language you want to learn?
+           </label>
+           <select id="dropdown">
+             <option>Java</option>
+              <option>javascript</option>
+               <option>Python</option>
+
+             </select>
+             </div>
+
+              <div >
+             <Label> Have you learned Any language before?</label>
+             
+            <div>
+              <label> <input type="radio" name="result" value="yes" class="input-radio" checked /> YES</label> <br>
+               
+
+            <label> <input type="radio" name="result" value="no"class="input-radio" checked/> NO</label>
+                </div>
+                </div>
+                
+            <div>
+             <Label> What can we do for improvements?</label>
+            <div>
+              <label> <input type="checkbox" name="ideas" value="bootcamp"/> provide 100 days boot camp</label>
+               </div>
+
+             <div>
+<label> <input type="checkbox" name="ideas" Value="mentorship" /> Provide 24/7 mentorship</label>
+                </div>
+      <div>
+
+        <label> Comments Your Feedback</label> <br>
+        <textarea type="text"></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit"> Submit </button>
+  </form>
+  </body>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color:lightblue;
+  text-align:center;
+  }
+form{
+  max-width:500px;
+  text-align:left;
+  padding:20px;
+  border:2px solid black;
+  border-radius:10px;
+}
+input{
+  padding:5px;
+  border:none;
+  border-radius:5px;
+}
+.input-element{
+  display:flex;
+  Flex-direction:column;
+  margin:10px;
+}
+select{padding:5px;
+  border:none;
+  border-radius:5px;
+
+}
+input [ type="checkbox"]{
+  width:15px;
+  height:15px;
+}
+
+** end of undefined **
+
